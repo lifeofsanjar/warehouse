@@ -1,1 +1,1 @@
-web: gunicorn warehouse.wsgi --log-file -
+web: python manage.py collectstatic --noinput && gunicorn warehouse.wsgi --log-file -
