@@ -1,17 +1,21 @@
 [phases.setup]
-nixPkgs = ["python313", "nodejs_20", "postgresql"]
+nixPkgs = ["python313", "nodejs_20", "postgresql", "gcc"]
 
 [phases.install]
 cmds = [
     "python -m venv /app/.venv",
     ". /app/.venv/bin/activate && pip install -r requirements.txt",
-    "npm install --prefix frontend"
+    "cd frontend && npm install"
 ]
 
 [phases.build]
 cmds = [
-    "npm run build --prefix frontend",
-    ". /app/.venv/bin/activate && python manage.py collectstatic --noinput",
+    "cd frontend && npm run build",
+    "echo 'Frontend build complete. Listing frontend/dist:'",
+    "ls -R frontend/dist",
+    ". /app/.venv/bin/activate && python manage.py collectstatic --noinput --clear",
+    "echo 'Collectstatic complete. Listing staticfiles:'",
+    "ls -R staticfiles",
     ". /app/.venv/bin/activate && python manage.py migrate"
 ]
 
