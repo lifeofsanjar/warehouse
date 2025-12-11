@@ -20,4 +20,4 @@ cmds = [
 ]
 
 [start]
-cmd = ". /app/.venv/bin/activate && gunicorn warehouse.wsgi --log-file -"
+cmd = ". /app/.venv/bin/activate && python manage.py collectstatic --noinput && gunicorn warehouse.wsgi --log-file -"
