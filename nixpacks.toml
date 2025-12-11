@@ -15,4 +15,4 @@ cmds = [
 ]
 
 [start]
-cmd = ". /app/.venv/bin/activate && python3 manage.py migrate && gunicorn warehouse.wsgi --log-file -"
+cmd = ". /app/.venv/bin/activate && python3 manage.py collectstatic --noinput && python3 manage.py migrate && gunicorn warehouse.wsgi --log-file -"
