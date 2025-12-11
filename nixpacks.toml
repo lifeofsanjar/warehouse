@@ -1,9 +1,9 @@
 [phases.setup]
-nixPkgs = ["python313", "nodejs_20", "postgresql", "gcc"]
+nixPkgs = ["python3", "nodejs", "postgresql", "gcc"]
 
 [phases.install]
 cmds = [
-    "python -m venv /app/.venv",
+    "python3 -m venv /app/.venv",
     ". /app/.venv/bin/activate && pip install -r requirements.txt",
     "cd frontend && npm install"
 ]
@@ -11,8 +11,8 @@ cmds = [
 [phases.build]
 cmds = [
     "cd frontend && npm run build",
-    ". /app/.venv/bin/activate && python manage.py collectstatic --noinput"
+    ". /app/.venv/bin/activate && python3 manage.py collectstatic --noinput"
 ]
 
 [start]
-cmd = ". /app/.venv/bin/activate && python manage.py migrate && gunicorn warehouse.wsgi --log-file -"
+cmd = ". /app/.venv/bin/activate && python3 manage.py migrate && gunicorn warehouse.wsgi --log-file -"
