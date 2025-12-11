@@ -1,0 +1,107 @@
+{
+  "common": {
+    "loading": "Жүктелуде...",
+    "error": "Қате",
+    "save": "Сақтау",
+    "cancel": "Болдырмау",
+    "delete": "Жою",
+    "edit": "Өңдеу",
+    "actions": "Әрекеттер",
+    "searchPlaceholder": "Аты немесе SKU бойынша іздеу...",
+    "export": "Экспорт",
+    "noImage": "Сурет жоқ",
+    "noImgShort": "Сурет жоқ",
+    "unknownProduct": "Белгісіз өнім",
+    "na": "Қ/Ж",
+    "sku": "SKU",
+    "name": "Атауы",
+    "productName": "Өнім атауы",
+    "quantity": "Саны",
+    "status": "Мәртебесі",
+    "image": "Сурет",
+    "description": "Сипаттама",
+    "category": "Санат",
+    "id": "ID",
+    "saving": "Сақталуда...",
+    "adding": "Қосылуда...",
+    "lowStock": "Аз қалды",
+    "inStock": "Қоймада бар",
+    "allCategories": "Барлық санаттар"
+  },
+  "auth": {
+    "welcomeBack": "Қайта қош келдіңіз",
+    "signInSubtitle": "Қойма тіркелгісіне кіріңіз",
+    "username": "Пайдаланушы аты",
+    "enterUsername": "Пайдаланушы атын енгізіңіз",
+    "password": "Құпия сөз",
+    "enterPassword": "Құпия сөзді енгізіңіз",
+    "signInButton": "Кіру",
+    "invalidCredentials": "Қате деректер. Қайтадан көріңіз.",
+    "registerText": "Түгендеуді оңтайландыруға дайынсыз ба?",
+    "registerLink": "Компания тіркелгісін жасау үшін бізбен хабарласыңыз!"
+  },
+  "nav": {
+    "dashboard": "Бақылау тақтасы",
+    "categories": "Санаттар",
+    "inventory": "Түгендеу",
+    "logout": "Шығу",
+    "warehouseController": "Қойма Басқару",
+    "products": "Өнімдер",
+    "marketManager": "Маркет Менеджері"
+  },
+  "dashboard": {
+    "addItemButton": "Элемент қосу",
+    "addInventoryItem": "Түгендеу элементін қосу",
+    "selectExisting": "Бар өнімді таңдау",
+    "createNew": "Жаңасын жасау",
+    "selectProduct": "Өнімді таңдаңыз",
+    "newProductName": "Жаңа өнім атауы",
+    "productNamePlaceholder": "мыс. Мұздатылған пицца",
+    "skuPlaceholder": "мыс. FP-001",
+    "selectCategory": "Санатты таңдаңыз",
+    "briefDescription": "Өнім туралы қысқаша...",
+    "productImage": "Өнім суреті",
+    "initialQuantity": "Бастапқы мөлшер",
+    "noItemsFound": "Түгендеу элементтері табылмады.",
+    "messages": {
+        "noWarehouse": "Бұл пайдаланушыға қойма тағайындалмаған. Қойма иесі ретінде кіріңіз.",
+        "fillAllFields": "Жаңа өнім өрістерін толтырыңыз.",
+        "addedViaDashboard": "Бақылау тақтасы арқылы қосылды",
+        "invalidInput": "Қате деректер. Өрістерді тексеріңіз.",
+        "itemAdded": "Элемент сәтті қосылды!",
+        "itemFailed": "Элементті қосу мүмкін болмады: ",
+        "qtyUpdated": "Мөлшер сәтті жаңартылды!",
+        "qtyUpdateFailed": "Мөлшерді жаңарту мүмкін болмады: ",
+        "deleteConfirm": "Бұл элементті түгендеуден жоюға сенімдісіз бе?",
+        "itemDeleted": "Элемент сәтті жойылды!",
+        "deleteFailed": "Элементті жою мүмкін болмады: "
+    }
+  },
+  "categories": {
+    "title": "Санаттар",
+    "addCategory": "Санат қосу",
+    "addNew": "Жаңа санат қосу",
+    "nameLabel": "Санат атауы",
+    "namePlaceholder": "мыс. Электроника",
+    "createButton": "Санат құру",
+    "noCategories": "Санаттар табылмады.",
+    "messages": {
+        "nameEmpty": "Санат атауы бос болмауы керек.",
+        "created": "Санат сәтті құрылды!",
+        "createFailed": "Санатты құру мүмкін болмады: ",
+        "deleteConfirm": "Бұл санатты жоюға сенімдісіз бе? Ондағы өнімдерге әсер етуі мүмкін.",
+        "deleted": "Санат сәтті жойылды!",
+        "deleteFailed": "Санатты жою мүмкін болмады: "
+    }
+  },
+  "inventoryList": {
+    "title": "Түгендеу",
+    "noDescription": "Сипаттама жоқ",
+    "noItemsMatch": "Сүзгілерге сәйкес келетін элементтер табылмады."
+  },
+  "errorBoundary": {
+    "title": "Бірдеңе дұрыс болмады.",
+    "subtitle": "Толығырақ ақпарат алу үшін консольді тексеріңіз.",
+    "reload": "Бетті қайта жүктеу"
+  }
+}

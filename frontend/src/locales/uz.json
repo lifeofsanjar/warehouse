@@ -1,0 +1,107 @@
+{
+  "common": {
+    "loading": "Yuklanmoqda...",
+    "error": "Xato",
+    "save": "Saqlash",
+    "cancel": "Bekor qilish",
+    "delete": "O'chirish",
+    "edit": "Tahrirlash",
+    "actions": "Amallar",
+    "searchPlaceholder": "Nom yoki SKU bo'yicha qidirish...",
+    "export": "Eksport",
+    "noImage": "Rasm yo'q",
+    "noImgShort": "Rasm yo'q",
+    "unknownProduct": "Noma'lum mahsulot",
+    "na": "Mavjud emas",
+    "sku": "SKU",
+    "name": "Nomi",
+    "productName": "Mahsulot nomi",
+    "quantity": "Miqdor",
+    "status": "Holat",
+    "image": "Rasm",
+    "description": "Tavsif",
+    "category": "Kategoriya",
+    "id": "ID",
+    "saving": "Saqlanmoqda...",
+    "adding": "Qo'shilmoqda...",
+    "lowStock": "Kam qolgan",
+    "inStock": "Mavjud",
+    "allCategories": "Barcha kategoriyalar"
+  },
+  "auth": {
+    "welcomeBack": "Xush kelibsiz",
+    "signInSubtitle": "Ombor hisobingizga kiring",
+    "username": "Foydalanuvchi nomi",
+    "enterUsername": "Foydalanuvchi nomini kiriting",
+    "password": "Parol",
+    "enterPassword": "Parolni kiriting",
+    "signInButton": "Kirish",
+    "invalidCredentials": "Noto'g'ri ma'lumotlar. Iltimos, qaytadan urining.",
+    "registerText": "Inventarizatsiyani soddalashtirishga tayyormisiz?",
+    "registerLink": "Kompaniya hisobini ochish uchun biz bilan bog'laning!"
+  },
+  "nav": {
+    "dashboard": "Boshqaruv paneli",
+    "categories": "Kategoriyalar",
+    "inventory": "Inventar",
+    "logout": "Chiqish",
+    "warehouseController": "Ombor Boshqaruvi",
+    "products": "Mahsulotlar",
+    "marketManager": "Market Menejeri"
+  },
+  "dashboard": {
+    "addItemButton": "Element qo'shish",
+    "addInventoryItem": "Inventar elementini qo'shish",
+    "selectExisting": "Mavjudini tanlash",
+    "createNew": "Yangi yaratish",
+    "selectProduct": "Mahsulotni tanlang",
+    "newProductName": "Yangi mahsulot nomi",
+    "productNamePlaceholder": "masalan, Muzlatilgan pitsa",
+    "skuPlaceholder": "masalan, FP-001",
+    "selectCategory": "Kategoriyani tanlang",
+    "briefDescription": "Mahsulot haqida qisqacha...",
+    "productImage": "Mahsulot rasmi",
+    "initialQuantity": "Boshlang'ich miqdor",
+    "noItemsFound": "Inventar elementlari topilmadi.",
+    "messages": {
+        "noWarehouse": "Ushbu foydalanuvchiga ombor biriktirilmagan. Iltimos, Ombor egasi sifatida kiring.",
+        "fillAllFields": "Iltimos, yangi mahsulot maydonlarini to'ldiring.",
+        "addedViaDashboard": "Boshqaruv paneli orqali qo'shildi",
+        "invalidInput": "Noto'g'ri kiritish. Iltimos, maydonlarni tekshiring.",
+        "itemAdded": "Element muvaffaqiyatli qo'shildi!",
+        "itemFailed": "Elementni qo'shib bo'lmadi: ",
+        "qtyUpdated": "Miqdor muvaffaqiyatli yangilandi!",
+        "qtyUpdateFailed": "Miqdorni yangilab bo'lmadi: ",
+        "deleteConfirm": "Ushbu elementni inventardan olib tashlashga ishonchingiz komilmi?",
+        "itemDeleted": "Element muvaffaqiyatli o'chirildi!",
+        "deleteFailed": "Elementni o'chirib bo'lmadi: "
+    }
+  },
+  "categories": {
+    "title": "Kategoriyalar",
+    "addCategory": "Kategoriya qo'shish",
+    "addNew": "Yangi kategoriya qo'shish",
+    "nameLabel": "Kategoriya nomi",
+    "namePlaceholder": "masalan, Elektronika",
+    "createButton": "Kategoriya yaratish",
+    "noCategories": "Kategoriyalar topilmadi.",
+    "messages": {
+        "nameEmpty": "Kategoriya nomi bo'sh bo'lishi mumkin emas.",
+        "created": "Kategoriya muvaffaqiyatli yaratildi!",
+        "createFailed": "Kategoriyani yaratib bo'lmadi: ",
+        "deleteConfirm": "Ushbu kategoriyani o'chirishga ishonchingiz komilmi? Undagi mahsulotlarga ta'sir qilishi mumkin.",
+        "deleted": "Kategoriya muvaffaqiyatli o'chirildi!",
+        "deleteFailed": "Kategoriyani o'chirib bo'lmadi: "
+    }
+  },
+  "inventoryList": {
+    "title": "Inventar",
+    "noDescription": "Tavsif yo'q",
+    "noItemsMatch": "Filtrlarga mos keladigan inventar elementlari topilmadi."
+  },
+  "errorBoundary": {
+    "title": "Nimadir xato ketdi.",
+    "subtitle": "Batafsil ma'lumot uchun konsolni tekshiring.",
+    "reload": "Sahifani qayta yuklash"
+  }
+}

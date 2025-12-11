@@ -1,0 +1,107 @@
+{
+  "common": {
+    "loading": "Загрузка...",
+    "error": "Ошибка",
+    "save": "Сохранить",
+    "cancel": "Отмена",
+    "delete": "Удалить",
+    "edit": "Редактировать",
+    "actions": "Действия",
+    "searchPlaceholder": "Поиск по имени или SKU...",
+    "export": "Экспорт",
+    "noImage": "Нет изображения",
+    "noImgShort": "Нет img",
+    "unknownProduct": "Неизвестный продукт",
+    "na": "Н/Д",
+    "sku": "SKU",
+    "name": "Название",
+    "productName": "Название продукта",
+    "quantity": "Количество",
+    "status": "Статус",
+    "image": "Изображение",
+    "description": "Описание",
+    "category": "Категория",
+    "id": "ID",
+    "saving": "Сохранение...",
+    "adding": "Добавление...",
+    "lowStock": "Мало",
+    "inStock": "В наличии",
+    "allCategories": "Все категории"
+  },
+  "auth": {
+    "welcomeBack": "С возвращением",
+    "signInSubtitle": "Войдите в свой аккаунт склада",
+    "username": "Имя пользователя",
+    "enterUsername": "Введите имя пользователя",
+    "password": "Пароль",
+    "enterPassword": "Введите пароль",
+    "signInButton": "Войти",
+    "invalidCredentials": "Неверные учетные данные. Попробуйте снова.",
+    "registerText": "Готовы оптимизировать свой склад?",
+    "registerLink": "Свяжитесь с нами для создания аккаунта компании!"
+  },
+  "nav": {
+    "dashboard": "Дашборд",
+    "categories": "Категории",
+    "inventory": "Инвентарь",
+    "logout": "Выйти",
+    "warehouseController": "Управление Складом",
+    "products": "Продукты",
+    "marketManager": "Менеджер Маркета"
+  },
+  "dashboard": {
+    "addItemButton": "Добавить товар",
+    "addInventoryItem": "Добавить товар в инвентарь",
+    "selectExisting": "Выбрать существующий",
+    "createNew": "Создать новый",
+    "selectProduct": "Выберите продукт",
+    "newProductName": "Название нового продукта",
+    "productNamePlaceholder": "напр. Замороженная пицца",
+    "skuPlaceholder": "напр. FP-001",
+    "selectCategory": "Выберите категорию",
+    "briefDescription": "Краткое описание продукта...",
+    "productImage": "Изображение продукта",
+    "initialQuantity": "Начальное количество",
+    "noItemsFound": "Товары не найдены.",
+    "messages": {
+        "noWarehouse": "Пользователю не назначен склад. Войдите как владелец склада.",
+        "fillAllFields": "Пожалуйста, заполните все поля нового продукта.",
+        "addedViaDashboard": "Добавлено через Дашборд",
+        "invalidInput": "Неверные данные. Проверьте поля.",
+        "itemAdded": "Товар успешно добавлен!",
+        "itemFailed": "Не удалось добавить товар: ",
+        "qtyUpdated": "Количество обновлено!",
+        "qtyUpdateFailed": "Не удалось обновить количество: ",
+        "deleteConfirm": "Вы уверены, что хотите удалить этот товар из инвентаря?",
+        "itemDeleted": "Товар успешно удален!",
+        "deleteFailed": "Не удалось удалить товар: "
+    }
+  },
+  "categories": {
+    "title": "Категории",
+    "addCategory": "Добавить категорию",
+    "addNew": "Добавить новую категорию",
+    "nameLabel": "Название категории",
+    "namePlaceholder": "напр. Электроника",
+    "createButton": "Создать категорию",
+    "noCategories": "Категории не найдены.",
+    "messages": {
+        "nameEmpty": "Название категории не может быть пустым.",
+        "created": "Категория успешно создана!",
+        "createFailed": "Не удалось создать категорию: ",
+        "deleteConfirm": "Вы уверены, что хотите удалить эту категорию? Продукты в ней могут быть затронуты.",
+        "deleted": "Категория успешно удалена!",
+        "deleteFailed": "Не удалось удалить категорию: "
+    }
+  },
+  "inventoryList": {
+    "title": "Инвентарь",
+    "noDescription": "Нет описания",
+    "noItemsMatch": "Товары не найдены по вашим фильтрам."
+  },
+  "errorBoundary": {
+    "title": "Что-то пошло не так.",
+    "subtitle": "Пожалуйста, проверьте консоль для подробностей.",
+    "reload": "Перезагрузить страницу"
+  }
+}
