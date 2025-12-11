@@ -10,9 +10,7 @@ cmds = [
 
 [phases.build]
 cmds = [
-    "cd frontend && npm run build",
-    ". /app/.venv/bin/activate && python manage.py collectstatic --noinput",
-    ". /app/.venv/bin/activate && python manage.py migrate"
+    "cd frontend && npm run build && cd .. && echo 'Build done. Checking dist:' && ls -la frontend/dist && . /app/.venv/bin/activate && python manage.py collectstatic --noinput && python manage.py migrate"
 ]
 
 [start]
